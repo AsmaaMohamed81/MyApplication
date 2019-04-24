@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="مكتبات"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="جغرافيا" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="علم النفس" />
+        <item
+            android:id="@+id/nav_icon"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="علم الإجتماع" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="فلسفة" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="تاريخ" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="عن التطبيق" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="اتصل بنا" />
+        </menu>
+    </item>
+
+
+
+</menu>
